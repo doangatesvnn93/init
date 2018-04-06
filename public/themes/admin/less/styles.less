@@ -1,0 +1,27 @@
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+.loading-container {
+  display: none;
+  .loading-overlay {
+    background: #fff;
+    height: 100%;
+    opacity: .4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+  }
+  .loading-gif {
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    z-index: 9999;
+  }
+  .loading-gif > div {
+    position: fixed;
+    top: 50%;
+    z-index: 9000;
+  }
+}
