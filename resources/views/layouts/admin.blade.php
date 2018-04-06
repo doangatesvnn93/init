@@ -46,7 +46,7 @@
         <div class="loading-gif">
             <div>
                 <div class="loading-data">
-                    <img style="width: 50px;" src="/themes/page/images/loading.gif">
+                    <img style="width: 50px;" src="/themes/images/loading.gif">
                 </div>
             </div>
         </div>
