@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    @include('landing.intro')
+    @include('page.landing.intro')
     <main id="main">
         @include('page.landing.about')
         @include('page.landing.service')
